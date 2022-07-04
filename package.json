@@ -9,11 +9,16 @@
     "@capacitor/ios": "3.6.0",
     "@capacitor/keyboard": "1.2.3",
     "@capacitor/status-bar": "1.0.8",
+    "@ionic-native/sqlite": "^4.20.0",
     "@ionic/react": "^6.0.0",
     "@ionic/react-router": "^6.0.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.6.3",
+    "@trong-orm/absurd-web-backend": "^1.1.0",
+    "@trong-orm/query-builder": "^1.1.0",
+    "@trong-orm/react": "^1.1.0",
+    "@trong-orm/sql.js": "^1.6.7",
     "@types/jest": "^26.0.20",
     "@types/node": "^12.19.15",
     "@types/react": "^16.14.3",
@@ -21,8 +26,11 @@
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
     "ionicons": "^5.4.0",
+    "lodash-es": "^4.17.21",
+    "lorem-ipsum": "^2.0.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-highlight-words": "^0.18.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^5.0.0",
@@ -67,6 +75,8 @@
   },
   "description": "An Ionic project",
   "devDependencies": {
-    "@capacitor/cli": "3.6.0"
+    "@capacitor/cli": "3.6.0",
+    "@types/lodash-es": "^4.17.6",
+    "@types/react-highlight-words": "^0.16.4"
   }
 }
