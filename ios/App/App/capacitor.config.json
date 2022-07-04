@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "trong-ionic-example",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
