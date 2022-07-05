@@ -1941,80 +1941,81 @@
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
 "@trong-orm/absurd-web-backend@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/absurd-web-backend/-/absurd-web-backend-1.1.3.tgz#17aa762dbcd63315c379b61e61e5891e4c16e093"
-  integrity sha512-hsXytW9FOABVuydoWyaL+2ygOcMcgblyYqcBI4CGHqKtR8dUQXk/8xpp7CVylajqqMhPRy+MJNgW3J0lhjs8Mg==
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/absurd-web-backend/-/absurd-web-backend-1.1.4.tgz#bfcc7677d77f031f7bae451baa32a1054c6fe2d4"
+  integrity sha512-hrhkWumO8LtSWO7xyukI4GKn7Z2lUlgbl4/w4eqLNPp0kyfR6sMcxlR8s10SuFtkaInhmEDVOYCLJv2m47oNqw==
   dependencies:
-    "@trong-orm/core" "^1.1.3"
-    "@trong-orm/sql" "^1.1.3"
+    "@trong-orm/core" "^1.1.4"
+    "@trong-orm/sql" "^1.1.4"
     "@trong-orm/sql.js" "^1.6.7"
     absurd-sql "^0.0.53"
     rxjs "^7.5.5"
 
-"@trong-orm/core@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/core/-/core-1.1.3.tgz#d3f31659a4db7196cfffdb870b71b5b4d7b687e3"
-  integrity sha512-pGrHOlAi3NQ76En56u/um7g4/uoAeMlx7CEA2AA7LEc/52WKgy6lhMYWk4iVS22cuZwFLI59o3xfTaZwBZpuKg==
+"@trong-orm/core@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/core/-/core-1.1.4.tgz#e7637a9c23718c029c68d09e7895558a0c8dc8ec"
+  integrity sha512-ZTfoN23yIDr7VHjsbGMXMuRMQ8vqlIOs0K4ImmspL/NW2adUwXhEM+4ipjjuAuJDOPsQ7soXPH/pyIH9odsMSA==
   dependencies:
-    "@trong-orm/query-builder" "^1.1.3"
-    "@trong-orm/sql" "^1.1.3"
+    "@trong-orm/query-builder" "^1.1.4"
+    "@trong-orm/sql" "^1.1.4"
     rxjs "^7.5.5"
     ts-essentials "^9.1.2"
 
-"@trong-orm/migrations-plugin@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/migrations-plugin/-/migrations-plugin-1.1.3.tgz#538bfb4297e1164580eedfd6dad1cec618098bc2"
-  integrity sha512-o6NQd4f6LlMe4/40hASePK2c+f5OVfZahya2T1FGcgxgwLnDHXWMDt7EDjm5s2v3RgYYx2lViRGFgd9BtHlEuQ==
+"@trong-orm/migrations-plugin@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/migrations-plugin/-/migrations-plugin-1.1.4.tgz#df329794ffe5d6dc76a69526adc5d54dc1cdac0f"
+  integrity sha512-p7dP917oGX89dd4tspB6t9tL2h+M1e0th9UfkMUKnAOxSHCkFOvmN4BYvb8p4F3rIlLiXrAMBDT3teEFTbEKmw==
   dependencies:
-    "@trong-orm/core" "^1.1.3"
-    "@trong-orm/sql" "^1.1.3"
+    "@trong-orm/core" "^1.1.4"
+    "@trong-orm/sql" "^1.1.4"
 
-"@trong-orm/native-ionic-backend@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/native-ionic-backend/-/native-ionic-backend-1.1.3.tgz#9fa23463ba15cd6dfae023c8b0ef5aeafdba5b39"
-  integrity sha512-WJknNqnAt3JBG23mB9SegYLayNanbsI5sAhmEPQ2phTzV2wLL598WbwiHAzt9Se6iIc9LnQlpWORbqLMuHBXRA==
+"@trong-orm/native-ionic-backend@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/native-ionic-backend/-/native-ionic-backend-1.1.4.tgz#9a7ef114062f878bd24deae02d531db55b3c16a3"
+  integrity sha512-OaNnaqqY9aS1MCGm0pL1ogn5gBKCGdFIQzaqw6Cf9BqXWflW99BWyuh4VPyo2bMW574iidRL6bh17XIyPUDIKg==
   dependencies:
     "@awesome-cordova-plugins/core" "^5.44.0"
     "@awesome-cordova-plugins/sqlite" "^5.44.0"
-    "@trong-orm/core" "^1.1.3"
-    "@trong-orm/sql" "^1.1.3"
+    "@trong-orm/core" "^1.1.4"
+    "@trong-orm/sql" "^1.1.4"
+    cordova-sqlite-storage "^6.0.0"
 
-"@trong-orm/query-builder@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/query-builder/-/query-builder-1.1.3.tgz#1bcc1261cb42d2ddb6bbcee54eb67b4fed61ecf2"
-  integrity sha512-qMRf7cuyFvPYQzBIdShr+YeR4NFXmtjPHYyOmX5Hvc/vEXfRoGKj8MsjLANYSZc57zOSiDgAui4tiPN/M7cyow==
+"@trong-orm/query-builder@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/query-builder/-/query-builder-1.1.4.tgz#82887fdf66c95722d5fe79ddfa7f59be9020c0cf"
+  integrity sha512-q71Z+THelpL7QYyFc8x+VmaMJhCFYaRH0H/rvkh71JagseuCOHBxK4kCtZfse+KLPpi8H10MizpEH4aVH7+Fdw==
   dependencies:
-    "@trong-orm/sql" "^1.1.3"
+    "@trong-orm/sql" "^1.1.4"
 
-"@trong-orm/react-queries-hooks@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/react-queries-hooks/-/react-queries-hooks-1.1.3.tgz#5a5888315d88e98b25eebd2d31b8df1da69ca22e"
-  integrity sha512-IA+mKBb2gyPosSS2TsUn0nbSvr5Pxhdz5CKX+SUp+o0V7JOGL+rOmuh22UM+qcgaOdmDzntepYmC4zHUImDZWg==
+"@trong-orm/react-queries-hooks@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/react-queries-hooks/-/react-queries-hooks-1.1.4.tgz#420347fe88799dd103e70eaa41ae628647bd0be8"
+  integrity sha512-0U7cSQLFv6e8JNNtxNL2uaFYF02eQrARcVaM6+0fZwyFuvmFfZkj/zC+zGD9YxkXW5DRojF16+lK0s+aiGHtCQ==
   dependencies:
-    "@trong-orm/core" "^1.1.3"
-    "@trong-orm/reactive-queries-plugin" "^1.1.3"
-    "@trong-orm/sql" "^1.1.3"
+    "@trong-orm/core" "^1.1.4"
+    "@trong-orm/reactive-queries-plugin" "^1.1.4"
+    "@trong-orm/sql" "^1.1.4"
     rxjs "^7.5.5"
 
-"@trong-orm/react@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/react/-/react-1.1.3.tgz#3311476039a2a0b301d305e6d53ba22bf292e26e"
-  integrity sha512-NshnNv0VWlN5VRZZgmkqpACDOrKzkDKGTDnRbYwbmGy1I2gRL8MbOceK/dI5jCknYWllYScm7V0M7bps2llRnQ==
+"@trong-orm/react@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/react/-/react-1.1.4.tgz#587439f058a33c9dbbae70a43047e12f598623ef"
+  integrity sha512-Fjq0PWWwg+7/iQZMw2/i4K+7RwIOwJBk+IpyZniZtq/BbJ78TwJ0sdK1oYGd1TewTbPaGulFlPveB6gXzYBSZA==
   dependencies:
-    "@trong-orm/core" "^1.1.3"
-    "@trong-orm/migrations-plugin" "^1.1.3"
-    "@trong-orm/react-queries-hooks" "^1.1.3"
-    "@trong-orm/reactive-queries-plugin" "^1.1.3"
-    "@trong-orm/sql" "^1.1.3"
+    "@trong-orm/core" "^1.1.4"
+    "@trong-orm/migrations-plugin" "^1.1.4"
+    "@trong-orm/react-queries-hooks" "^1.1.4"
+    "@trong-orm/reactive-queries-plugin" "^1.1.4"
+    "@trong-orm/sql" "^1.1.4"
 
-"@trong-orm/reactive-queries-plugin@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/reactive-queries-plugin/-/reactive-queries-plugin-1.1.3.tgz#739abb2b7633cb040796dd0480603151c33b4f33"
-  integrity sha512-wNxSjSvFKhegGjLzcbHUmXE2JWxDvOdPsWcZOJgA1UUX97n0DH5J5UAroHFicDUYUC2YP7pEhJq2+aWmlshmpw==
+"@trong-orm/reactive-queries-plugin@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/reactive-queries-plugin/-/reactive-queries-plugin-1.1.4.tgz#f5f33409f64f03d927b793240e578ba0bb24a74c"
+  integrity sha512-EEZfA2fZsY1EEbFemWNM6aKCBaM8LjU+1v9FHWD9/Hqs7C0/OZjJ1Y4kQDkyMfhIMt5Cwd/ncdfSZu25zrHTvQ==
   dependencies:
-    "@trong-orm/core" "^1.1.3"
-    "@trong-orm/query-builder" "^1.1.3"
-    "@trong-orm/sql" "^1.1.3"
+    "@trong-orm/core" "^1.1.4"
+    "@trong-orm/query-builder" "^1.1.4"
+    "@trong-orm/sql" "^1.1.4"
     broadcast-channel "^4.12.0"
     rxjs "^7.5.5"
 
@@ -2023,10 +2024,10 @@
   resolved "https://registry.yarnpkg.com/@trong-orm/sql.js/-/sql.js-1.6.7.tgz#7586a7513f7bf2d48173876e630f0e083cfbc2c5"
   integrity sha512-A9Yz/EdUPzic2c1vcOllwCh7RJ7otsBfp9xsEqvpByKyKUVTXZHSwfnRYSApmwL5ferRXlNcz9iAKMKnQjO6DQ==
 
-"@trong-orm/sql@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@trong-orm/sql/-/sql-1.1.3.tgz#83280f3a812d6da3cfc90e6827224194fdbc23ee"
-  integrity sha512-yQVO5mLrzEo1usgQwuTr384Yz99Ux3uN5YAOQq7M8wNpr9LXIKpCtRfY5i6MnykxcEDchASGuMuLatcC2D/BdQ==
+"@trong-orm/sql@^1.1.4":
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@trong-orm/sql/-/sql-1.1.4.tgz#6d3fce1b83c2639aade1ae280d12b5a687ff32dc"
+  integrity sha512-JYFD+6RCBumn6QAZxG0QnHzAr5O/EfWUwBT8CGqcKpcpjqWsZFxNlaULjQ8Kr6mWAVVtbOahWFluZ8jAh8jp+w==
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
