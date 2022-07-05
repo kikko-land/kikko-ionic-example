@@ -1,4 +1,3 @@
-// import { SQLite, SQLiteObject } from "@ionic-native/sqlite";
 import {
   DbProvider,
   EnsureDbLoaded,
@@ -6,9 +5,9 @@ import {
   migrationsPlugin,
   reactiveQueriesPlugin,
 } from "@trong-orm/react";
+import { isPlatform } from "@ionic/react";
 // @ts-ignore
 import sqlWasmUrl from "@trong-orm/sql.js/dist/sql-wasm.wasm";
-import { absurdWebBackend } from "@trong-orm/absurd-web-backend";
 
 import { Redirect, Route } from "react-router-dom";
 import {
@@ -51,9 +50,14 @@ setupIonicReact();
 
 const config: IInitDbClientConfig = {
   dbName: "db-name",
-  dbBackend: absurdWebBackend({
-    wasmUrl: sqlWasmUrl,
-  }),
+  dbBackend: (async () =>
+    isPlatform("hybrid")
+      ? (await import("@trong-orm/native-ionic-backend")).ionicBackend(
+          (name) => `${name}.db`
+        )
+      : (await import("@trong-orm/absurd-web-backend")).absurdWebBackend({
+          wasmUrl: sqlWasmUrl,
+        }))(),
   plugins: [
     migrationsPlugin({ migrations: [createNotesTableMigration] }),
     reactiveQueriesPlugin(),
