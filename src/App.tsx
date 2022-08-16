@@ -4,10 +4,10 @@ import {
   IInitDbClientConfig,
   migrationsPlugin,
   reactiveQueriesPlugin,
-} from "@trong-orm/react";
+} from "@kikko-land/react";
 import { isPlatform } from "@ionic/react";
 // @ts-ignore
-import sqlWasmUrl from "@trong-orm/sql.js/dist/sql-wasm.wasm";
+import sqlWasmUrl from "@kikko-land/sql.js/dist/sql-wasm.wasm";
 
 import { Redirect, Route } from "react-router-dom";
 import {
@@ -52,10 +52,10 @@ const config: IInitDbClientConfig = {
   dbName: "db-name",
   dbBackend: (async () =>
     isPlatform("hybrid")
-      ? (await import("@trong-orm/native-ionic-backend")).ionicBackend(
+      ? (await import("@kikko-land/native-ionic-backend")).ionicBackend(
           (name) => `${name}.db`
         )
-      : (await import("@trong-orm/absurd-web-backend")).absurdWebBackend({
+      : (await import("@kikko-land/absurd-web-backend")).absurdWebBackend({
           wasmUrl: sqlWasmUrl,
         }))(),
   plugins: [
